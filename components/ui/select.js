@@ -1,0 +1,2 @@
+export function Select({ children, ...props }) { return <select {...props} className='border rounded-xl px-3 py-2 w-full'>{children}</select>; };
+export function SelectItem({ value, children }) { return <option value={value}>{children}</option>; };
